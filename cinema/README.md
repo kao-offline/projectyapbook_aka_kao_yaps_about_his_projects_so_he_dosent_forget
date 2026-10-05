@@ -1,0 +1,9 @@
+# SpilledCinema
+
+A self-hosted media streaming platform with local nodes, a dashboard, gateway, control plane, desktop shell, and browser bridge.
+
+![SpilledCinema logo](./logo.png)
+
+Logo copied from the local project assets.
+
+> This folder is a lightweight project card for the public Yapbook. It keeps the description and logo here without copying private source trees, build outputs, credentials, or local environment files.

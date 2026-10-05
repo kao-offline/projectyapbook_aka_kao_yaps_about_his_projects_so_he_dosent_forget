@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" role="img" aria-labelledby="title desc">
+<title>ALPLIGHT</title><desc>Alplight Share project logo</desc>
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#374151"/></linearGradient></defs>
+<rect x="8" y="8" width="624" height="164" rx="28" fill="url(#g)"/>
+<path d="M42 46h18v88H42zM70 46h18v88H70z" fill="#a7f3d0"/>
+<text x="116" y="105" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="52" font-weight="700" letter-spacing="2">ALPLIGHT</text>
+</svg>
