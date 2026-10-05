@@ -16,11 +16,12 @@ Abracadabra owns:
 - login/session and token semantics;
 - device enrollment and key lifecycle;
 - authorization and encrypted-key grants;
+- Lake Maze access routing, capability validation, and bounded decoy paths for invalid requests;
 - envelope encryption orchestration;
 - key rotation, revocation, recovery, and audit events;
 - SDKs and protocol messages used by apps such as stamp.dev.
 
-Abracadabra does **not** invent a new cipher, replace TLS, define storage chunking, or decide how files are packed for transport. Those concerns belong to established libraries, transport layers, and **Who remains**.
+Abracadabra does **not** invent a new cipher, replace TLS, or define storage chunking. Lake Maze is an Abracadabra access-routing and decoy-capability layer; Who remains still owns how authorized encrypted files are packed, versioned, and transferred.
 
 ## Relationship with Who remains
 
@@ -29,7 +30,7 @@ Application (stamp.dev, Alplight, etc.)
         │ identity, permissions, key access
         ▼
    Abracadabra
-        │ object key / grant / policy
+        │ grant / policy / Lake Maze capability
         ▼
    Who remains
         │ encrypted object format, versions, chunks, bins, transfer

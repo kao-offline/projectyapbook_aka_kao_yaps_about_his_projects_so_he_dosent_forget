@@ -26,6 +26,44 @@ NIST FIPS 203 defines ML-KEM as a key-encapsulation mechanism for establishing s
 
 The hybrid choice is deliberately conservative: a session is accepted only when the classical and post-quantum components both succeed. If a future review chooses a different combiner, it becomes a new protocol version rather than an in-place change.
 
+## Lake Maze: the Abracadabra access maze
+
+**Lake Maze belongs to Abracadabra.** It is the authentication and authorization layer's controlled maze of opaque capabilities and decoy routes. It is not part of Who remains' binning or storage format.
+
+“Skip across the lake” describes the legitimate path: a principal with a valid grant gets a short, direct, authenticated route to the authorized operation. An unauthenticated or spoofed request does not receive a real object locator. If decoy mode is enabled, it is placed in a bounded maze of generated, non-sensitive routes and dead ends instead.
+
+The maze is not security through hiding the source code. An attacker may know the complete implementation. Security comes from secret keys, valid grants, signatures, expiry, and server-side state. Without those, the attacker cannot derive the real route or distinguish a valid object capability from a decoy capability by structure alone.
+
+### Lake Maze algorithm
+
+Let:
+
+```text
+K_route  = HKDF(K_app, "abracadabra/v1/lake-maze/real" || app_id || key_epoch)
+K_decoy  = HKDF(K_app, "abracadabra/v1/lake-maze/decoy" || app_id || key_epoch)
+```
+
+For a valid request, the server:
+
+1. verifies the principal, device, audience, grant, object scope, action, epoch, expiry, and replay state;
+2. computes `route_seed = HKDF(K_route, "route" || grant_id || object_id || action || request_nonce)`;
+3. derives a bounded route of at most `H` hops from `route_seed`, where each hop has an opaque node ID and a MACed capability token;
+4. returns only the first capability token and the minimum data needed for the authorized operation;
+5. validates every subsequent token against the grant, route epoch, hop number, expiry, and request transcript;
+6. resolves the real object only after the final capability check succeeds.
+
+For an invalid, expired, replayed, or spoofed request, the server:
+
+1. performs the same input parsing and key-policy checks but never performs a real object lookup;
+2. computes `decoy_seed = HMAC-SHA-256(K_decoy, canonical_request || coarse_time_epoch)`;
+3. generates a bounded, deterministic-for-that-epoch decoy graph with opaque hop tokens, false branches, and terminal dead ends;
+4. returns only generated, non-sensitive responses with strict byte, hop, time, and rate limits;
+5. records the event for abuse detection and eventually terminates the route.
+
+Decoy responses must not contain real object IDs, real manifests, valid Who remains locators, or secrets. They should use the same record envelope and error class as normal capability responses. Timing equalization, response padding, and rate limits are separate hardening measures; unbounded random sleeps are not a security design.
+
+Lake Maze does not protect an attacker who already possesses a valid grant. That case is handled by least-privilege scopes, short expiry, revocation, device binding, audit events, and key rotation. If the relevant route keys are compromised, the maze is considered compromised and must not be treated as encryption.
+
 ## Session handshake
 
 For a first implementation, the authenticated handshake is:

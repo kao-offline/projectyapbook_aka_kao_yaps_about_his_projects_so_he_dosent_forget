@@ -1,6 +1,6 @@
 # Abracadabra
 
-Planned authentication and encryption protocol/system for safely protecting application data. It is intended to provide reusable authentication, key handling, and secure encryption for apps such as stamp.dev.
+Planned authentication and encryption protocol/system for safely protecting application data. It is intended to provide reusable authentication, key handling, secure encryption, and the Lake Maze decoy-access layer for apps such as stamp.dev.
 
 **Status:** Planned concept — no repository or implementation created yet.
 

@@ -2,11 +2,11 @@
 
 **Status:** Experimental design. This is not production cryptography, storage, or transport software.
 
-## Design decision: Lake Maze
+## Boundary: Who remains data plane
 
-**Lake Maze** is the fast encrypted-data layout inside Who remains. “Skip across the lake” means a reader can locate and authenticate only the bins needed for a range, field, version, or playback window instead of downloading and decrypting the entire object.
+Who remains owns the encrypted object format, versions, bins, manifests, selective fetching, and transfer receipts. It does not own authentication or attacker-facing route deception.
 
-Lake Maze is therefore a data layout and transfer algorithm, not a new cipher.
+The **Lake Maze** access maze belongs to Abracadabra. Abracadabra supplies Who remains with a valid, scoped grant and—where enabled—a verified route capability. Who remains then performs its own manifest, bin, Merkle, and AEAD checks. A Who remains implementation must not invent alternate authentication paths for missing or invalid grants.
 
 ## Profile W: `who-remains/1`
 
@@ -26,7 +26,7 @@ The 1 MiB value is a starting benchmark parameter, not a universal optimum. The 
 ## Object layout
 
 ```text
-LakeMazeObject
+WhoRemainsObject
 ├── header
 ├── version_manifest
 │   ├── object_id
@@ -76,7 +76,7 @@ For an odd number of nodes, duplicate the final node at that level. The manifest
 11. Build the sparse index and Merkle tree over `bin_id` values.
 12. Sign the canonical manifest through Abracadabra and publish the manifest before or atomically with the bins.
 
-### Read / “skip across the lake”
+### Read / selective fetch
 
 1. Fetch and authenticate the small top-level manifest.
 2. Translate the requested logical range or field into required bin indexes using the sparse index.
@@ -124,7 +124,7 @@ compress bin → encrypt bin → group encrypted bins → parity/FEC → transpo
 transport → recover missing bytes/bins → verify bin ID + AEAD → decrypt
 ```
 
-FEC may improve recovery; it does not authenticate data and must never bypass the AEAD or manifest checks. A quantum bit-flip channel would require a separate quantum error-correction protocol; Lake Maze is a classical encrypted-data system.
+FEC may improve recovery; it does not authenticate data and must never bypass the AEAD or manifest checks. A quantum bit-flip channel would require a separate quantum error-correction protocol; Who remains is a classical encrypted-data system.
 
 ## Performance measurements
 
