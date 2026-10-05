@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" role="img" aria-labelledby="title desc">
+<title>Who remains logo</title><desc>Planned compact data encryption and transfer system logo</desc>
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#064e3b"/><stop offset="1" stop-color="#0f766e"/></linearGradient></defs>
+<rect x="8" y="8" width="624" height="164" rx="28" fill="url(#g)"/>
+<circle cx="72" cy="90" r="34" fill="none" stroke="#ccfbf1" stroke-width="9"/><path d="M72 56v68M38 90h68" stroke="#ccfbf1" stroke-width="7"/>
+<text x="128" y="106" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700" letter-spacing="2">WHO REMAINS</text>
+</svg>
