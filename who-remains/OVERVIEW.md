@@ -2,6 +2,8 @@
 
 **Status:** Concept only. No repository or implementation exists yet.
 
+**Detailed algorithm design:** [ALGORITHM-DESIGN.md](./ALGORITHM-DESIGN.md)
+
 ## One-sentence purpose
 
 Who remains is the encrypted data-plane format and transfer system for Kao's apps: it versions, packs, encrypts, verifies, resumes, and manages data while reducing transfer latency, loss impact, and unnecessary bytes.

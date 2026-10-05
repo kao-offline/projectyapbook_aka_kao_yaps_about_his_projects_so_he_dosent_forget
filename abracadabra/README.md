@@ -8,6 +8,8 @@ Planned authentication and encryption protocol/system for safely protecting appl
 
 **Overview:** [Agent-ready overview](./OVERVIEW.md)
 
+**Algorithm design:** [Abracadabra v0.1 design](./ALGORITHM-DESIGN.md)
+
 ![Abracadabra logo](./logo.svg)
 
 > This is a project card for an idea that is not implemented yet. It contains no production cryptography or security guarantees.

@@ -10,6 +10,8 @@ It is designed to serve Abracadabra and application-specific systems such as sta
 
 **Overview:** [Agent-ready overview](./OVERVIEW.md)
 
+**Algorithm design:** [Who remains v0.1 design](./ALGORITHM-DESIGN.md)
+
 ![Who remains logo](./logo.svg)
 
 > This is a project card for an idea that is not implemented yet. It contains no production cryptography, compression, or transport guarantees.

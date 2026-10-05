@@ -2,6 +2,8 @@
 
 **Status:** Concept only. No repository or implementation exists yet.
 
+**Detailed algorithm design:** [ALGORITHM-DESIGN.md](./ALGORITHM-DESIGN.md)
+
 ## One-sentence purpose
 
 Abracadabra is the shared authentication and application-encryption layer for Kao's apps: it establishes who or what is allowed to act, which keys may be used, and how encrypted data is granted, rotated, revoked, and audited.
