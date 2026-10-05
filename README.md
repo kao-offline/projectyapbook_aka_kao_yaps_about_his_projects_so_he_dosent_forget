@@ -26,8 +26,7 @@ A public memory index for Kao's projects. Each project has its own folder with a
 | ![SkautReg logo](./SkautReg/logo.svg) | **[SkautReg](SkautReg/)** | Scout group management for members, trips, RSVP, meetings, transport, finance, and integrations. |
 | ![Alplight Share logo](./alplight-share/logo.svg) | **[Alplight Share](alplight-share/)** | A live-folder workspace for encrypted uploads, connected computer sources, WebDAV drives, and lightweight media proxies. |
 | ![stamp.dev logo](./stampdotdev/logo.svg) | **[stamp.dev](stampdotdev/)** | A speed-first Git forge prototype with Git-backed storage, smart HTTP transport, a web UI, and benchmarking tools. |
-| ![Spilled logo](./spilled/logo.svg) | **[Spilled](spilled/)** | The local Spilled media-library workspace: saved library state, offline records, and the local content vault used alongside SpilledCinema. |
-| ![SpilledCinema logo](./cinema/logo.png) | **[SpilledCinema](cinema/)** | A self-hosted media streaming platform with local nodes, a dashboard, gateway, control plane, desktop shell, and browser bridge. |
+| ![SpilledCinema logo](./cinema/logo.png) | **[Spilled / SpilledCinema](cinema/)** | One media project: the Spilled library and content vault together with the SpilledCinema self-hosted streaming platform, nodes, dashboard, gateway, control plane, desktop shell, and browser bridge. |
 | ![kaoID logo](./kaoid/logo.svg) | **[kaoID](kaoid/)** | Shared identity and authentication infrastructure using short-lived JWTs, JWKS verification, and session-aware app access. |
 | ![quickHOST logo](./quickhost/logo.svg) | **[quickHOST](quickhost/)** | One-command static hosting for Vite, Astro, and HTML apps on kaooffline.top with Cloudflare, D1/R2 storage, CLI deployment, and 30-day expiry. |
 | ![FlashGames logo](./flashgames/logo.svg) | **[FlashGames](flashgames/)** | An outdoor multiplayer game platform foundation using Convex and Convex Auth, with FlashTag as its first game mode. |
@@ -46,7 +45,6 @@ Project Yapbook/
 ├── SkautReg/
 ├── alplight-share/
 ├── stampdotdev/
-├── spilled/
 ├── cinema/
 ├── kaoid/
 ├── quickhost/
@@ -63,5 +61,5 @@ Project Yapbook/
 ## Notes
 
 - Descriptions were assembled from the project READMEs, package metadata, and app source found on the local computer.
-- `spilled` is represented as the local media-library workspace; `cinema` is the SpilledCinema application monorepo.
+- `Spilled` and `SpilledCinema` are the same media project and are represented together in `cinema/`.
 - `kaoID` is represented as a shared identity layer because the local computer contains its implementation and branding inside related projects rather than as a separate checkout.
