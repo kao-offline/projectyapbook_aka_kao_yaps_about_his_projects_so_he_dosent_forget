@@ -2,6 +2,8 @@
 
 An outdoor multiplayer game platform foundation using Convex and Convex Auth, with FlashTag as its first game mode.
 
+**Repository:** [https://github.com/kao-offline/flash-games](https://github.com/kao-offline/flash-games)
+
 ![FlashGames logo](./logo.svg)
 
 Logo copied from the local project assets.

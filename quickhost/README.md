@@ -2,6 +2,8 @@
 
 One-command static hosting for Vite, Astro, and HTML apps on kaooffline.top with Cloudflare, D1/R2 storage, CLI deployment, and 30-day expiry.
 
+**Repository:** No GitHub origin was configured in the local checkout.
+
 ![quickHOST logo](./logo.svg)
 
 Logo mark generated for this index because no standalone local logo asset was found.

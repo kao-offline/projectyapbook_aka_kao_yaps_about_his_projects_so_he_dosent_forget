@@ -2,6 +2,8 @@
 
 A race-management MVP for theraceteam.cz with public race pages, organizer tools, scheduling, and capacity settings.
 
+**Repository:** No GitHub origin was configured in the local checkout.
+
 ![TheRaceTeam logo](./logo.svg)
 
 Logo copied from the local project assets.

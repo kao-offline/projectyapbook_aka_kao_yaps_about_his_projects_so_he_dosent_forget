@@ -2,6 +2,8 @@
 
 A live-folder workspace for encrypted uploads, connected computer sources, WebDAV drives, and lightweight media proxies.
 
+**Repository:** [https://github.com/kao-offline/alplight-share](https://github.com/kao-offline/alplight-share)
+
 ![Alplight Share logo](./logo.svg)
 
 Logo mark generated for this index because no standalone local logo asset was found.

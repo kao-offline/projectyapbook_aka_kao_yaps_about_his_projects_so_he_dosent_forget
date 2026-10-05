@@ -2,6 +2,8 @@
 
 A CMS concept that combines visually managed content and hash-verified publishing with the speed of a static site.
 
+**Repository:** [https://github.com/kao-offline/beam-cms](https://github.com/kao-offline/beam-cms)
+
 ![Beam CMS logo](./logo.svg)
 
 Logo mark generated for this index because no standalone local logo asset was found.

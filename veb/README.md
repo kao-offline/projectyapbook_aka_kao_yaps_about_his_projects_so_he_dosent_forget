@@ -2,6 +2,8 @@
 
 The Universal Runtime: a cross-platform tool for installing and running complete applications from VEXP project manifests.
 
+**Repository:** [https://github.com/kao-offline/veb-cli](https://github.com/kao-offline/veb-cli)
+
 ![VEB logo](./logo.svg)
 
 Logo copied from the local project assets.

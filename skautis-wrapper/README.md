@@ -2,6 +2,8 @@
 
 A Fastify gateway with per-session queues and isolated Chromium workers for SkautIS, plus a dashboard and navigation map.
 
+**Repository:** No GitHub origin was configured in the local checkout.
+
 ![SkautIS Wrapper logo](./logo.svg)
 
 Logo copied from the local project assets.

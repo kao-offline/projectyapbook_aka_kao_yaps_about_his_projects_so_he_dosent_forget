@@ -2,6 +2,8 @@
 
 Scout group management for members, trips, RSVP, meetings, transport, finance, and integrations.
 
+**Repository:** [https://github.com/kao-offline/SkauTreg](https://github.com/kao-offline/SkauTreg)
+
 ![SkautReg logo](./logo.svg)
 
 Logo copied from the local project assets.

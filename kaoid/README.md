@@ -2,6 +2,8 @@
 
 Shared identity and authentication infrastructure using short-lived JWTs, JWKS verification, and session-aware app access.
 
+**Repository:** [https://github.com/kao-offline/alplight-share](https://github.com/kao-offline/alplight-share)
+
 ![kaoID logo](./logo.svg)
 
 Logo copied from the local project assets.

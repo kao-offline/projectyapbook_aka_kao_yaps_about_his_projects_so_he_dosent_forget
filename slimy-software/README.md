@@ -2,6 +2,8 @@
 
 A Vite/React software catalog interface for browsing installer packages, deployment profiles, and app metadata.
 
+**Repository:** No GitHub origin was configured in the local checkout.
+
 ![slimySOFTWARE logo](./logo.png)
 
 Logo copied from the local project assets.

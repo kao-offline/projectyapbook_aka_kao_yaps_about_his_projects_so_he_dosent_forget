@@ -2,6 +2,8 @@
 
 A source-grounded fact-checking web app that plans research, compares evidence, and returns citation-checked verdicts.
 
+**Repository:** [https://github.com/kao-offline/fact-check](https://github.com/kao-offline/fact-check)
+
 ![FactCheck logo](./logo.png)
 
 Logo copied from the local project assets.
