@@ -1,6 +1,6 @@
 # SpilledCinema
 
-A self-hosted media streaming platform with local nodes, a dashboard, gateway, control plane, desktop shell, and browser bridge.
+One media project combining the Spilled local library and content vault with a self-hosted streaming platform, local nodes, dashboard, gateway, control plane, desktop shell, and browser bridge.
 
 ![Spilled logo](./spilled-logo.svg)
 ![SpilledCinema logo](./logo.png)
