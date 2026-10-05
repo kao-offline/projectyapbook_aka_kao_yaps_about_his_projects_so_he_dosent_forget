@@ -21,22 +21,25 @@ A public memory index for Kao's projects. Each project has its own folder with a
 
 ## Projects
 
-| Logo | Project | Short description |
-|---|---|---|
-| ![SkautReg logo](./SkautReg/logo.svg) | **[SkautReg](SkautReg/)** | Scout group management for members, trips, RSVP, meetings, transport, finance, and integrations. |
-| ![Alplight Share logo](./alplight-share/logo.svg) | **[Alplight Share](alplight-share/)** | A live-folder workspace for encrypted uploads, connected computer sources, WebDAV drives, and lightweight media proxies. |
-| ![stamp.dev logo](./stampdotdev/logo.svg) | **[stamp.dev](stampdotdev/)** | A speed-first Git forge prototype with Git-backed storage, smart HTTP transport, a web UI, and benchmarking tools. |
-| ![SpilledCinema logo](./cinema/logo.png) | **[Spilled / SpilledCinema](cinema/)** | One media project: the Spilled library and content vault together with the SpilledCinema self-hosted streaming platform, nodes, dashboard, gateway, control plane, desktop shell, and browser bridge. |
-| ![kaoID logo](./kaoid/logo.svg) | **[kaoID](kaoid/)** | Shared identity and authentication infrastructure using short-lived JWTs, JWKS verification, and session-aware app access. |
-| ![quickHOST logo](./quickhost/logo.svg) | **[quickHOST](quickhost/)** | One-command static hosting for Vite, Astro, and HTML apps on kaooffline.top with Cloudflare, D1/R2 storage, CLI deployment, and 30-day expiry. |
-| ![FlashGames logo](./flashgames/logo.svg) | **[FlashGames](flashgames/)** | An outdoor multiplayer game platform foundation using Convex and Convex Auth, with FlashTag as its first game mode. |
-| ![myamipisnicky logo](./myamipisnicky/logo.svg) | **[myamipisnicky](myamipisnicky/)** | A Czech and Slovak song-lyrics app with a deterministic crawler, SQLite index, local search, and a Vinext/Cloudflare web starter. |
-| ![FactCheck logo](./factcheck/logo.png) | **[FactCheck](factcheck/)** | A source-grounded fact-checking web app that plans research, compares evidence, and returns citation-checked verdicts. |
-| ![VEB logo](./veb/logo.svg) | **[VEB](veb/)** | The Universal Runtime: a cross-platform tool for installing and running complete applications from VEXP project manifests. |
-| ![SkautIS Wrapper logo](./skautis-wrapper/logo.svg) | **[SkautIS Wrapper](skautis-wrapper/)** | A Fastify gateway with per-session queues and isolated Chromium workers for SkautIS, plus a dashboard and navigation map. |
-| ![Beam CMS logo](./beam/logo.svg) | **[Beam CMS](beam/)** | A CMS concept that combines visually managed content and hash-verified publishing with the speed of a static site. |
-| ![TheRaceTeam logo](./raceteam/logo.svg) | **[TheRaceTeam](raceteam/)** | A race-management MVP for theraceteam.cz with public race pages, organizer tools, scheduling, and capacity settings. |
-| ![slimySOFTWARE logo](./slimy-software/logo.png) | **[slimySOFTWARE](slimy-software/)** | A Vite/React software catalog interface for browsing installer packages, deployment profiles, and app metadata. |
+<table>
+<thead><tr><th>Logo</th><th>Project</th><th>Short description</th></tr></thead>
+<tbody>
+<tr><td><img src="./SkautReg/logo.svg" width="96" alt="SkautReg logo"></td><td><strong><a href="SkautReg/">SkautReg</a></strong></td><td>Scout group management for members, trips, RSVP, meetings, transport, finance, and integrations.</td></tr>
+<tr><td><img src="./alplight-share/logo.svg" width="96" alt="Alplight Share logo"></td><td><strong><a href="alplight-share/">Alplight Share</a></strong></td><td>A live-folder workspace for encrypted uploads, connected computer sources, WebDAV drives, and lightweight media proxies.</td></tr>
+<tr><td><img src="./stampdotdev/logo.svg" width="96" alt="stamp.dev logo"></td><td><strong><a href="stampdotdev/">stamp.dev</a></strong></td><td>A speed-first Git forge prototype with Git-backed storage, smart HTTP transport, a web UI, and benchmarking tools.</td></tr>
+<tr><td><img src="./cinema/logo.png" width="96" alt="SpilledCinema logo"><br><img src="./cinema/spilled-logo.svg" width="96" alt="Spilled logo"></td><td><strong><a href="cinema/">Spilled / SpilledCinema</a></strong></td><td>One media project: the Spilled library and content vault together with the SpilledCinema self-hosted streaming platform, nodes, dashboard, gateway, control plane, desktop shell, and browser bridge.</td></tr>
+<tr><td><img src="./kaoid/logo.svg" width="96" alt="kaoID logo"></td><td><strong><a href="kaoid/">kaoID</a></strong></td><td>Shared identity and authentication infrastructure using short-lived JWTs, JWKS verification, and session-aware app access.</td></tr>
+<tr><td><img src="./quickhost/logo.svg" width="96" alt="quickHOST logo"></td><td><strong><a href="quickhost/">quickHOST</a></strong></td><td>One-command static hosting for Vite, Astro, and HTML apps on kaooffline.top with Cloudflare, D1/R2 storage, CLI deployment, and 30-day expiry.</td></tr>
+<tr><td><img src="./flashgames/logo.svg" width="96" alt="FlashGames logo"></td><td><strong><a href="flashgames/">FlashGames</a></strong></td><td>An outdoor multiplayer game platform foundation using Convex and Convex Auth, with FlashTag as its first game mode.</td></tr>
+<tr><td><img src="./myamipisnicky/logo.svg" width="96" alt="myamipisnicky logo"></td><td><strong><a href="myamipisnicky/">myamipisnicky</a></strong></td><td>A Czech and Slovak song-lyrics app with a deterministic crawler, SQLite index, local search, and a Vinext/Cloudflare web starter.</td></tr>
+<tr><td><img src="./factcheck/logo.png" width="96" alt="FactCheck logo"></td><td><strong><a href="factcheck/">FactCheck</a></strong></td><td>A source-grounded fact-checking web app that plans research, compares evidence, and returns citation-checked verdicts.</td></tr>
+<tr><td><img src="./veb/logo.svg" width="96" alt="VEB logo"></td><td><strong><a href="veb/">VEB</a></strong></td><td>The Universal Runtime: a cross-platform tool for installing and running complete applications from VEXP project manifests.</td></tr>
+<tr><td><img src="./skautis-wrapper/logo.svg" width="96" alt="SkautIS Wrapper logo"></td><td><strong><a href="skautis-wrapper/">SkautIS Wrapper</a></strong></td><td>A Fastify gateway with per-session queues and isolated Chromium workers for SkautIS, plus a dashboard and navigation map.</td></tr>
+<tr><td><img src="./beam/logo.svg" width="96" alt="Beam CMS logo"></td><td><strong><a href="beam/">Beam CMS</a></strong></td><td>A CMS concept that combines visually managed content and hash-verified publishing with the speed of a static site.</td></tr>
+<tr><td><img src="./raceteam/logo.svg" width="96" alt="TheRaceTeam logo"></td><td><strong><a href="raceteam/">TheRaceTeam</a></strong></td><td>A race-management MVP for theraceteam.cz with public race pages, organizer tools, scheduling, and capacity settings.</td></tr>
+<tr><td><img src="./slimy-software/logo.png" width="96" alt="slimySOFTWARE logo"></td><td><strong><a href="slimy-software/">slimySOFTWARE</a></strong></td><td>A Vite/React software catalog interface for browsing installer packages, deployment profiles, and app metadata.</td></tr>
+</tbody>
+</table>
 
 ## Folder map
 
