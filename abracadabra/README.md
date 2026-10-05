@@ -6,6 +6,8 @@ Planned authentication and encryption protocol/system for safely protecting appl
 
 **Repository:** Not created yet.
 
+**Overview:** [Agent-ready overview](./OVERVIEW.md)
+
 ![Abracadabra logo](./logo.svg)
 
 > This is a project card for an idea that is not implemented yet. It contains no production cryptography or security guarantees.

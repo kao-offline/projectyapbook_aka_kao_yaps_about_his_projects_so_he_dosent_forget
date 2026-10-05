@@ -8,6 +8,8 @@ It is designed to serve Abracadabra and application-specific systems such as sta
 
 **Repository:** Not created yet.
 
+**Overview:** [Agent-ready overview](./OVERVIEW.md)
+
 ![Who remains logo](./logo.svg)
 
 > This is a project card for an idea that is not implemented yet. It contains no production cryptography, compression, or transport guarantees.
